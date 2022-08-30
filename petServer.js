@@ -61,3 +61,5 @@ server.on('request', function (req, res) {
 server.listen(port, function () {
     console.log(`listening on port: ${port}`)
 })
+
+module.exports = server
